@@ -1,3 +1,7 @@
+"""
+DP Problem
+URL: https://www.hackerrank.com/challenges/equal
+"""
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 def min_ops(interns):
     min_choc = min(intern)
@@ -7,7 +11,7 @@ def min_ops(interns):
     if min_choc == max_choc:
         return [no_ops,solved]
     if max_choc - min_choc >= 5:
-        
+
 
 
     return [no_ops,solved]
