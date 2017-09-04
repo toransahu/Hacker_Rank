@@ -1,6 +1,4 @@
 # Programming Practices
-This repo contains **Competative Programming** solutions from:
-## HackerRank
-## Interviews
+This repo contains practice problems & solutions from **HackerRank**.
 
 **-Toran Sahu**
