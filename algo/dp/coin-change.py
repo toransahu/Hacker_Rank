@@ -7,7 +7,7 @@ amount = 4
 no_of_deno = 4
 all_coins = [8, 3, 1, 2]
 # create list with 5 list and (m+1) element in each
-memo = [[0 for i in range(no_of_deno + 1)] for j in range(no_of deno + 1)]
+memo = [[0 for i in range(no_of_deno + 1)] for j in range(no_of_deno + 1)]
 coins = [i for i in all_coins if i <= amount]
 way = 0
 
