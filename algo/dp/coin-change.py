@@ -12,10 +12,10 @@ coins = [i for i in all_coins if i <= amount]
 way = 0
 
 for i in coins:
-    for j in ccoins:
+    for j in coins:
         if i != j and (memo[i][j] == 1 or memo[j][i] == 1):
             way += 1
-        elif i != j and i + j == n:
+        elif i != j and i + j == amount:
             memo[i][j] = 1
             memo[j][i] = 1
             way += 1
@@ -24,4 +24,4 @@ for i in range(amount // min(coins)):
     for j in coins:
         if j * i == amount:
             way += 1
-return way
+print(way)
