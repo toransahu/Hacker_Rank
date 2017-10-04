@@ -10,8 +10,8 @@ URL: https://www.hackerrank.com/challenges/coin-change
 
 
 def getWays(amount, all_coins):
-    print(amount, all_coins)
     """Find number of ways."""
+    # print(amount, all_coins)
     global count
     if len(all_coins) == 1:
         if amount % all_coins[0] == 0:
